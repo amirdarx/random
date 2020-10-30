@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+}
+
+.color {
+    z-index: -1;
+    position: absolute;
+    transition: .4s;
+    animation: rot 1s ease-in-out;
+}
+
+.cols {
+    position: absolute;
+    margin: 15vh 15vw;
+    width: 70vw;
+    height: 70vh;
+    background-color: #a000fd66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cols h1 {
+    letter-spacing: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    font-size: 100px;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
