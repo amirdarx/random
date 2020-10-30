@@ -1,18 +1,3 @@
-// let x = window.innerHeight;
-// console.log(x);
-
-// let y = document.body.offsetHeight;
-
-// window.addEventListener('scroll', () => {
-//     y += 100;
-//     console.log(y);
-//     if (document.body.offsetHeight > x) {
-//         console.log('xx');
-//     }
-// });
-
-// .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
-
 let body = document.body;
 let square = document.getElementById('col');
 let color, margin_top, margin_left, border_radius, width, height;
